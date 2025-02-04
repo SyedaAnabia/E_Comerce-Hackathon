@@ -32,7 +32,7 @@ interface Project {
   slug: string;
 }
 
-const ProductCards: React.FC = () => {
+const Product: React.FC = () => {
   const { addToCart } = useCartContext();
   const [products, setProducts] = React.useState<Project[]>([]);
   const [categories, setCategories] = React.useState<string[]>([]);
@@ -222,4 +222,4 @@ const ProductCards: React.FC = () => {
   );
 };
 
-export default ProductCards;
+export default Product;

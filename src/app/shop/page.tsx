@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Feature from "@/components/Feature";
-import Products from "../query/Products/page";
+import Products from "@/components/Product"
 import Link from "next/link";
 
 const ShopPage = () => {

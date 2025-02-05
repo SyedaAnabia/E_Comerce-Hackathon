@@ -3,6 +3,15 @@ import Feature from "@/components/Feature";
 import Products from "@/components/Product"
 import Link from "next/link";
 
+
+const sanity = sanityClient({
+    projectId: "vx34v9cf",
+    dataset: "production",
+    apiVersion: '2025-01-18',
+    token:  process.env.SANITY_API_TOKEN,
+    useCdn: true,
+  });
+
 const ShopPage = () => {
 
 

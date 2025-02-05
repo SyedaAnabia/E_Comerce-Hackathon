@@ -7,8 +7,8 @@ import Link from 'next/link';
 
 
 const sanity = sanityClient({
-    projectId: "2srh4ekv",
-    dataset: "productions",
+    projectId: "vx34v9cf",
+    dataset: "production",
     apiVersion: '2025-01-18',
     token:  process.env.SANITY_API_TOKEN,
     useCdn: true,

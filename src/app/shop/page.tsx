@@ -2,6 +2,7 @@ import Image from "next/image";
 import Feature from "@/components/Feature";
 import Products from "@/components/Product"
 import Link from "next/link";
+import sanityClient  from '@sanity/client';
 
 
 const sanity = sanityClient({
